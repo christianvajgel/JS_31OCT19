@@ -3,12 +3,9 @@ let number1,
     result,
     operation;
 
-// valueResult = document.querySelector("p#result");
-
 function calculate(event) {
     number1 = Number(document.querySelector("input#number1").value);
     number2 = Number(document.querySelector("input#number2").value);
-
     operation = event.currentTarget.innerText;
 
     switch (operation) {
